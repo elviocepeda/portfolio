@@ -1,0 +1,41 @@
+.header-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: auto;
+  
+  ul {
+    display: flex;
+    margin-top: 1em;
+
+    li {
+      list-style: none;
+      margin-right: 1.5em;
+
+      span {
+        color: #1a1a1a;
+        text-decoration-line: none;
+        font-size: x-large;
+        font-weight: 500;
+      }
+
+      span::after {
+        content: '';
+        height: 3px;
+        width: 0%;
+        background-color: #af4f4c;
+        display: block;
+        transition: .5s ease-in;
+      }
+
+      span:hover::after {
+        content: '';
+        height: 3px;
+        width: 100%;
+        background-color: #af4f4c;
+        display: block;
+      }
+    }
+  }
+}

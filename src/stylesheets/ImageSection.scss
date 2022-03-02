@@ -1,0 +1,13 @@
+.image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  width: 100%;
+
+  .image-profile {
+    width: auto;
+    height: 100%;
+  }
+}

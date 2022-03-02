@@ -1,0 +1,15 @@
+.socialsharebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 300;
+  top: 4px;
+  filter: opacity(0);
+  animation: show .5s ease-in forwards;
+}
+
+@keyframes show {
+  to {
+    filter: opacity(1);
+  }
+}

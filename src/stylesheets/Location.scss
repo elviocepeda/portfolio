@@ -1,0 +1,40 @@
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: #000000cc;
+
+  .location-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #fff;
+    height: 480px;
+
+    .location-btn-close {
+      text-align: center;
+      height: 20px;
+      width: 20px;
+      margin: .4em;
+      font-weight: 700;
+      border: 1px solid #FE1E50;
+      background-color: #fff;
+      color: #FE1E50;
+      border-radius: 4px;
+    }
+
+    .location-btn-close:hover {
+      background-color: #FE1E50;
+      color: #ffffff;
+      cursor: pointer;
+      transition: .3s ease-in;
+    }
+  }
+}

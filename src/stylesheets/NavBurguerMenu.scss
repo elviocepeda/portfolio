@@ -1,0 +1,40 @@
+.navburguer-menu {
+  position: relative;
+  top: -280px;
+  z-index: 1200;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  width: 100%;
+  animation: menu .2s ease-in forwards;
+
+  ul {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+
+    li {
+      list-style: none;
+      padding: 1.2em;
+
+      span {
+        color: #fff;
+        text-decoration-line: none;
+        font-size: x-large;
+        font-weight: 500;
+      }
+
+      
+    }
+  }
+
+  li:hover {
+    background-color: #6b6b6b;
+  }
+
+  @keyframes menu {
+    to {
+      top: 0;
+    }
+  }
+}

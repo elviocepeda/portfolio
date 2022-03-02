@@ -1,0 +1,116 @@
+.home-icons {
+  position: relative;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 3em;
+  height: auto;
+
+  .icons-top {
+    display: flex;
+    flex-direction: column;
+      
+      .svg-location {
+        margin-top: 1em;
+        cursor: pointer;
+        stroke: #f3f2ec;
+      }
+
+      .svg-location:hover {
+        margin-top: 1em;
+        cursor: pointer;
+        stroke: #af4f4c;
+      }
+
+      .svg-location-filled {
+        margin-top: 1em;
+        cursor: pointer;
+        stroke: #af4f4c;
+      }
+      
+      .svg-favorite {
+        margin-top: .6em;
+        cursor: pointer;
+        stroke: #f3f2ec;
+        fill: #1a1a1a;
+      }
+
+      .svg-favorite:hover {
+        margin-top: .6em;
+        cursor: pointer;
+        stroke: #af4f4c;
+      }
+
+      .svg-favorite-filled {
+        margin-top: .6em;
+        cursor: pointer;
+        stroke: #af4f4c;
+        fill: #af4f4c;
+      }
+
+      .svg-share {
+        margin-top: .6em;
+        cursor: pointer;
+        stroke: #f3f2ec;
+      }
+
+      .svg-share:hover {
+        margin-top: .6em;
+        cursor: pointer;
+        stroke: #af4f4c;
+      }
+
+  }
+
+  .icons-beetwen {
+    width: 100%;
+    height: 100%;
+    margin: 1em 0;
+    border-top: 1px solid #f3f2ec;
+    border-bottom: 1px solid #f3f2ec;
+  }
+
+  .icons-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .svg-facebook {
+      margin-bottom: .5em;
+      cursor: pointer;
+    }
+
+    .svg-facebook:hover {
+      margin-bottom: .5em;
+      cursor: pointer;
+      fill: #af4f4c;
+    }
+
+    .svg-instagram {
+      align-self: center;
+      margin-bottom: .6em;
+      margin-left: .15rem;
+      cursor: pointer;
+    }
+
+    .svg-instagram:hover {
+      align-self: center;
+      margin-bottom: .6em;
+      cursor: pointer;
+      fill: #af4f4c;
+    }
+
+    .svg-linkedin {
+      margin-bottom: 1em;
+      cursor: pointer;
+    }
+
+    .svg-linkedin:hover {
+      margin-bottom: 1em;
+      cursor: pointer;
+      fill: #af4f4c;
+    }
+  }
+}

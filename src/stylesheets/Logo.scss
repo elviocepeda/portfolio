@@ -1,0 +1,48 @@
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 10em;
+  height: 100%;
+
+  .svg-logo {
+    position: absolute;
+    margin-left: 10em;
+    margin-top: 1.5em;
+    width: 10rem;
+    height: auto;
+
+    .sky {
+      fill: #60d1ab;
+      animation: sky-move 3s alternate infinite;
+      
+    }
+
+    .red {
+      fill: #be2e2e;
+      animation: red-move 3s alternate infinite;
+    }
+
+    .e-logo {
+      fill: #1d1d1d;
+    }
+  }
+}
+
+@keyframes sky-move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(6px, 3px);
+  }
+}
+
+@keyframes red-move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-6px, -3px);
+  }
+}

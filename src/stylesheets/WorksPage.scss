@@ -1,0 +1,48 @@
+.works {
+  display: flex;
+  width: 75%;
+  height: 85vh;/* 
+  overflow: hidden; */
+  box-shadow: 0 40px 40px 4px #111111de;
+  
+  .section-1 {
+    background-color: #f3f2ec;    
+    position: relative;
+    z-index: 10;
+    width: 70%;
+    height: 100%;
+    box-shadow: 4px 0 12px #1a1a1a;
+
+    .works-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+
+      .works-cards {
+        padding-top: 4em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+        span {
+          width: 100%;
+          height: 12em;
+        }
+      }
+    }
+  }
+
+  .section-2 {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+  }
+}

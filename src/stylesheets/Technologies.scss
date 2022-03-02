@@ -1,0 +1,69 @@
+.technologies {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 180;
+  margin-top: 1.5em;
+  padding: 2em;
+  width: 50%;
+
+  .svg-tech {
+    width: 100%;
+  }
+  
+  .html:hover {
+    fill: #C63529;
+    cursor: pointer;
+    transition: .5s ease-in;
+    filter: drop-shadow(2px 4px 2px #00000080);
+  }
+
+  .css:hover {
+    fill: #2A49D8;
+    cursor: pointer;
+    transition: .5s ease-in;
+    filter: drop-shadow(4px 4px 2px #00000080); 
+  }
+
+  .js:hover {
+    fill: #ECCC30;
+    cursor: pointer;
+    transition: .5s ease-in;
+    filter: drop-shadow(4px 4px 2px #00000080); 
+  }
+
+  .sass:hover {
+    fill: #C36291;
+    cursor: pointer;
+    transition: .5s ease-in;
+    filter: drop-shadow(4px 4px 2px #00000080); 
+  }
+
+  .bootstrap:hover {
+    fill: #543071;
+    cursor: pointer;
+    transition: .5s ease-in;
+    filter: drop-shadow(4px 4px 2px #00000080); 
+  }
+
+  .react:hover {
+    fill: #68CFEE;
+    cursor: pointer;
+    transition: .5s ease-in;
+    filter: drop-shadow(4px 4px 2px #00000080); 
+  }
+
+  .npm:hover {
+    fill: #C23535;
+    cursor: pointer;
+    transition: .5s ease-in;
+    filter: drop-shadow(4px 4px 2px #00000080); 
+  }
+
+  .git:hover {
+    fill: #E74B2B;
+    cursor: pointer;
+    transition: .5s ease-in;
+    filter: drop-shadow(4px 4px 2px #00000080); 
+  }
+}
